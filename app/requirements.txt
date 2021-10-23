@@ -1,0 +1,5 @@
+autopep8
+selenium
+chromedriver-binary
+requests
+beautifulsoup4
