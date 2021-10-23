@@ -6,7 +6,7 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
 
 RUN apt -y install vim
-RUN apt-get -y --fix-missing install vim wget curl
+RUN apt-get -y --fix-missing install vim wget curl unzip
 
 RUN mkdir /app
 WORKDIR /app
